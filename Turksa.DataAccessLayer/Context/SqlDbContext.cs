@@ -16,6 +16,9 @@ namespace Turksa.DataAccessLayer.Context
         public DbSet<Stok> Stoklar { get; set; }
         public DbSet<Vergi> Vergiler { get; set; }
         public DbSet<UrunAgaci> UrunAgaclari { get; set; }
+        public DbSet<Kisi> Kisiler { get; set; }
+
+        public DbSet<Adres> Adresler { get; set; }
         public SqlDbContext()
         {
 

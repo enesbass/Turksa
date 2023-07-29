@@ -6,6 +6,7 @@ namespace Turksa.Entity.Concrete
     {
 
         public string BirimAdi { get; set; }
-     
+        public ICollection<Stok> Stoklar { get; set; }
+
     }
 }

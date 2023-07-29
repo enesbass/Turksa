@@ -9,5 +9,8 @@ namespace Turksa.Entity.Concrete
 {
     public class UrunAgaci:BaseEntity
     {
+        public int StokId { get; set; }
+        public Stok Stok { get; set; }
+        public double Adet { get; set; }
     }
 }

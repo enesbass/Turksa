@@ -14,5 +14,6 @@ namespace Turksa.Entity.Concrete
         public int? UstKategoriId { get; set; }
         public Kategori? UstKategori { get; set; }
         public ICollection<Kategori>? AltKategoriler { get; set; }
+        public ICollection<Stok>? Stoklar { get; set; }
     }
 }
