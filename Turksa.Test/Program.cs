@@ -1,4 +1,7 @@
-﻿namespace Turksa.Test
+﻿using Turksa.DataAccessLayer.Abstract;
+using Turksa.DataAccessLayer.Concrete;
+using Turksa.Entity.Concrete;
+namespace Turksa.Test
 {
     internal class Program
     {

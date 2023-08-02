@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Turksa.DataAccessLayer\Turksa.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\Turksa.Entity\Turksa.Entity.csproj" />
+  </ItemGroup>
+
 </Project>
