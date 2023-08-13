@@ -15,5 +15,6 @@ namespace Turksa.DataAccessLayer.Abstract
         public int Delete(T input);
         public T GetById(int id);
         public ICollection<T> GetAll(Expression<Func<T, bool>>? filter = null);
+
     }
 }
